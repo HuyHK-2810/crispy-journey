@@ -83,225 +83,580 @@ function addIdentity() {
 }
 
 function resetUnits() {
-    return 
-    [
-        {
-            id: 15,
-            name: `Độ dài của cung tròn <br> Diện tích hình quạt tròn và          hình vành khuyên`,
-            levels: [
-            ]
-        },
-        {
-            id: 16,
-            name: `Vị trí tương đối của đường thẳng và đường tròn`,
-            levels: [
-            ]
-        },
-        {
-            id: 17,
-            name: `Vị trí tương đối của hai đường tròn`,
-            levels: [
-            ]
-        },
-        {
-            id: 18,
-            name: `Hàm số y = ax² (a ≠ 0)`,
-            levels: [
-            ]
-        },
-        {
-            id: 19,
-            name: `Phương trình bậc hai một ẩn`,
-            levels: [
-            ]
-        },
-        {
-            id: 20,
-            name: `Định lí viete và ứng dụng`,
-            levels: [
-            ]
-        },
-        {
-            id: 21,
-            name: `Giải bài toán bằng cách lập phương trình`,
-            levels: [
-            ]
-        },
-        {
-            id: 22,
-            name: `Bảng tần số và biểu đồ tần số`,
-            levels: [
-            ]
-        },
-        {
-            id: 23,
-            name: `Bảng tần số tương đối và biểu đồ tần số tương đối`,
-            levels: [
-            ]
-        },
-        {
-            id: 24,
-            name: `Bảng tần số, tần số tương đối ghép nhóm và biểu đồ`,
-            levels: [
-            ]
-        },
-        {
-            id: 25,
-            name: `Phép thử ngẫu nhiên và không gian mẫu`,
-            levels: [
-            ]
-        },
-        {
-            id: 26,
-            name: `Xác suất của biến cố có liên quan tới phép thử`,
-            levels: [
-            ]
-        },
-        {
-            id: 27,
-            name: `Góc nội tiếp`,
-            levels: [
-            ]
-        },
-        {
-            id: 28,
-            name: `Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác`,
-            levels: [
-            ]
-        },
-        {
-            id: 29,
-            name: `Tứ giác nội tiếp`,
-            levels: [
-            ]
-        },
-        {
-            id: 30,
-            name: `Đa giác đều`,
-            levels: [
-            ]
-        },
-        {
-            id: 31,
-            name: `Hình trụ và hình nón`,
-            levels: [
-            ]
-        },
-        {
-            id: 32,
-            name: `Hình cầu`,
-            levels: [
-            ]
-        },
-        {
-            id: 15,
-            name: `Độ dài của cung tròn <br> Diện tích hình quạt tròn và              hình vành khuyên`,
-            levels: [
-            ]
-        },
-        {
-            id: 16,
-            name: `Vị trí tương đối của đường thẳng và đường tròn`,
-            levels: [
-            ]
-        },
-        {
-            id: 17,
-            name: `Vị trí tương đối của hai đường tròn`,
-            levels: [
-            ]
-        },
-        {
-            id: 18,
-            name: `Hàm số y = ax² (a ≠ 0)`,
-            levels: [
-            ]
-        },
-        {
-            id: 19,
-            name: `Phương trình bậc hai một ẩn`,
-            levels: [
-            ]
-        },
-        {
-            id: 20,
-            name: `Định lí viete và ứng dụng`,
-            levels: [
-            ]
-        },
-        {
-            id: 21,
-            name: `Giải bài toán bằng cách lập phương trình`,
-            levels: [
-            ]
-        },
-        {
-            id: 22,
-            name: `Bảng tần số và biểu đồ tần số`,
-            levels: [
-            ]
-        },
-        {
-            id: 23,
-            name: `Bảng tần số tương đối và biểu đồ tần số tương đối`,
-            levels: [
-            ]
-        },
-        {
-            id: 24,
-            name: `Bảng tần số, tần số tương đối ghép nhóm và biểu đồ`,
-            levels: [
-            ]
-        },
-        {
-            id: 25,
-            name: `Phép thử ngẫu nhiên và không gian mẫu`,
-            levels: [
-            ]
-        },
-        {
-            id: 26,
-            name: `Xác suất của biến cố có liên quan tới phép thử`,
-            levels: [
-            ]
-        },
-        {
-            id: 27,
-            name: `Góc nội tiếp`,
-            levels: [
-            ]
-        },
-        {
-            id: 28,
-            name: `Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác`,
-            levels: [
-            ]
-        },
-        {
-            id: 29,
-            name: `Tứ giác nội tiếp`,
-            levels: [
-            ]
-        },
-        {
-            id: 30,
-            name: `Đa giác đều`,
-            levels: [
-            ]
-        },
-        {
-            id: 31,
-            name: `Hình trụ và hình nón`,
-            levels: [
-            ]
-        },
-        {
-            id: 32,
-            name: `Hình cầu`,
-            levels: [
-            ]
-        },
-    ];
+    return [
+  {
+    "id": 1,
+    "name": "Khái niệm phương trình và hệ hai phương trình bậc nhất hai ẩn",
+    "levels": [
+      {
+        "name": "Phương trình bậc nhất hai ẩn",
+        "state": "unlock"
+      },
+      {
+        "name": "Hệ hai phương trình bậc nhất hai ẩn",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Giải hệ hai phương trình bậc nhất hai ẩn",
+    "levels": [
+      {
+        "name": "Phương pháp thế",
+        "state": "unlock"
+      },
+      {
+        "name": "Phương pháp cộng đại số",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Luyện tập chung",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Giải bài toán bằng cách lập hệ phương trình",
+    "levels": [
+      {
+        "name": "Luyện tập",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương I",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Phương trình quy về phương trình bậc nhất một ẩn",
+    "levels": [
+      {
+        "name": "Phương trình tích",
+        "state": "unlock"
+      },
+      {
+        "name": "Phương trình chứa ẩn ở mẫu",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Bất đẳng thức và tính chất",
+    "levels": [
+      {
+        "name": "Bất đẳng thức",
+        "state": "unlock"
+      },
+      {
+        "name": "Liên hệ giữa thứ tự và phép cộng",
+        "state": "unlock"
+      },
+      {
+        "name": "Liên hệ giữa thứ tự và phép nhân",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Luyện tập chung",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Bất phương trình bậc nhất một ẩn",
+    "levels": [
+      {
+        "name": "Khái niệm bất phương trình bậc nhất một ẩn",
+        "state": "unlock"
+      },
+      {
+        "name": "Cách giải bất phương trình bậc nhất một ẩn",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương II",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Căn bậc hai và căn thức bậc hai",
+    "levels": [
+      {
+        "name": "Căn bậc hai",
+        "state": "unlock"
+      },
+      {
+        "name": "Căn thức bậc hai",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Khai căn bậc hai với phép nhân và phép chia",
+    "levels": [
+      {
+        "name": "Khai căn bậc hai và phép nhân",
+        "state": "unlock"
+      },
+      {
+        "name": "Khai căn bậc hai và phép chia",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Biến đổi đơn giản và rút gọn biểu thức chứa căn thức bậc hai",
+    "levels": [
+      {
+        "name": "Đưa thừa số ra ngoài dấu căn",
+        "state": "unlock"
+      },
+      {
+        "name": "Đưa thừa số vào trong đâu căn",
+        "state": "unlock"
+      },
+      {
+        "name": "Trục căn thức ở mẫu",
+        "state": "unlock"
+      },
+      {
+        "name": "Rút gọn biểu thức chứa căn thức bậc hai",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Căn bậc ba và căn thức bậc ba",
+    "levels": [
+      {
+        "name": "Căn bậc ba",
+        "state": "unlock"
+      },
+      {
+        "name": "Căn thức bậc ba",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Luyện tập chung",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương III",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Tỉ số lượng giác của góc nhọn",
+    "levels": [
+      {
+        "name": "Khái niệm tỉ số lượng giác của một góc nhọn",
+        "state": "unlock"
+      },
+      {
+        "name": "Tỉ số lượng giác của hai góc phụ nhau",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Một số hệ thức giữa cạnh, góc trong tam giác vuông và ứng dụng",
+    "levels": [
+      {
+        "name": "Hệ thức giữa cạnh huyền và cạnh góc vuông",
+        "state": "unlock"
+      },
+      {
+        "name": "Hệ thức giữa hai cạnh góc vuông",
+        "state": "unlock"
+      },
+      {
+        "name": "Giải tam giác vuông",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Luyện tập chung",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương IV",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Mở đầu về đường tròn",
+    "levels": [
+      {
+        "name": "Đường tròn",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Cung và dây của một đường tròn",
+    "levels": [
+      {
+        "name": "Dây và đường kính của đường tròn",
+        "state": "unlock"
+      },
+      {
+        "name": "Góc ở tâm, cung và số đo của một cung",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Độ dài của cung tròn <br> Diện tích hình quạt tròn và \n        hình vành khuyên",
+    "levels": [
+      {
+        "name": "Độ dài của cung tròn",
+        "state": "unlock"
+      },
+      {
+        "name": "Hình quạt tròn và hình vành khuyên",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Luyện tập chung",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Vị trí tương đối của đường thẳng và đường tròn",
+    "levels": [
+      {
+        "name": "Vị trí tương đối của đường thẳng và đường tròn",
+        "state": "unlock"
+      },
+      {
+        "name": "Hai tiếp tuyến cắt nhau của một đường tròn",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Vị trí tương đối của hai đường tròn",
+    "levels": [
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương V",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Hàm số y = ax² (a ≠ 0)",
+    "levels": [
+      {
+        "name": "Hàm số y = ax² (a ≠ 0)",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Phương trình bậc hai một ẩn",
+    "levels": [
+      {
+        "name": "Định nghĩa phương trình bậc hai một ẩn",
+        "state": "unlock"
+      },
+      {
+        "name": "Cách giải phương trình bậc hai một ẩn có dạng đặc biệt",
+        "state": "unlock"
+      },
+      {
+        "name": "Công thức nghiệm của phương trình bậc hai",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Luyện tập chung",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Định lí viete và ứng dụng",
+    "levels": [
+      {
+        "name": "Định lí viete",
+        "state": "unlock"
+      },
+      {
+        "name": "Áp dụng định lí viete",
+        "state": "unlock"
+      },
+      {
+        "name": "Tìm hai số khi biết tổng và tích của chúng",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Giải bài toán bằng cách lập phương trình",
+    "levels": [
+      {
+        "name": "Bài tập",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương VI",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Bảng tần số và biểu đồ tần số",
+    "levels": [
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Bảng tần số tương đối và biểu đồ tần số tương đối",
+    "levels": [
+      {
+        "name": "Bảng tần số tương đối",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Bảng tần số, tần số tương đối ghép nhóm và biểu đồ",
+    "levels": [
+      {
+        "name": "Bảng tần số, tần số tương đối ghép nhóm",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương VII",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Phép thử ngẫu nhiên và không gian mẫu",
+    "levels": [
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Xác suất của biến cố có liên quan tới phép thử",
+    "levels": [
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương VIII",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Góc nội tiếp",
+    "levels": [
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Đường tròn ngoại tiếp và đường tròn nội tiếp của một tam giác",
+    "levels": [
+      {
+        "name": "Đường tròn ngoại tiếp một tam giác",
+        "state": "unlock"
+      },
+      {
+        "name": "Đường tròn nội tiếp một tam giác",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Tứ giác nội tiếp",
+    "levels": [
+      {
+        "name": "Đường tròn ngoại tiếp một tứ giác",
+        "state": "unlock"
+      },
+      {
+        "name": "Đường tròn ngoại tiếp hình chữ nhật và hình vuông",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Đa giác đều",
+    "levels": [
+      {
+        "name": "Đa giác đều",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương IX",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Hình trụ và hình nón",
+    "levels": [
+      {
+        "name": "Hình trụ",
+        "state": "unlock"
+      },
+      {
+        "name": "Hình nón",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Hình cầu",
+    "levels": [
+      {
+        "name": "Diện tích mặt cầu và thể tích hình cầu",
+        "state": "unlock"
+      },
+      {
+        "name": "Vận dụng",
+        "state": "unlock"
+      },
+      {
+        "name": "Bài tập cuối chương X",
+        "state": "unlock"
+      }
+    ]
+  }
+]
 }
 
 displayUnits();
